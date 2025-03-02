@@ -24,7 +24,7 @@ const EmailSection = () => {
             </div>
             <div>
                 <form className="flex flex-col">
-                    <div className='mb-6'>//email
+                    <div className='mb-6'>
                         <label
                             htmlFor="email"
                             className='text-white block mb-2 text-sm font-medium'>
@@ -38,7 +38,7 @@ const EmailSection = () => {
                             placeholder='example@gmail.com'
                         />
                     </div>
-                    <div className='mb-6'>//subject
+                    <div className='mb-6'>
                         <label
                             htmlFor="subject"
                             className='text-white block mb-2 text-sm font-medium'>
@@ -49,21 +49,29 @@ const EmailSection = () => {
                             id='subject'
                             className='bg-[#33353F] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5'
                             required
-                            placeholder='example@gmail.com'
+                            placeholder='I have a propposal for you!'
                         />
                     </div>
-                    <div className='mb-6'>//topic
-                        <label htmlFor="email" className='text-white block text-sm font-medium'>
-                            Your Email
+                    <div className='mb-6'>
+                        <label
+                            htmlFor="message"
+                            className='text-white block text-sm font-medium'>
+                            Message
                         </label>
-                        <input
-                            type="email"
+                        <textarea
+                            name="message"
                             id='email'
                             className='bg-[#33353F] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5'
                             required
-                            placeholder='example@gmail.com'
+                            placeholder="Let 's talk aobut . . ."
                         />
+
                     </div>
+                    <button
+                        type='submit'
+                        className='bg-gradient-to-r from-purple-400 to-pink-600 text-white font-medium rounded-lg py-2.5 mt-4 w-60'                    >
+                        Send
+                    </button>
                 </form>
             </div>
         </section>
