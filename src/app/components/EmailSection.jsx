@@ -40,8 +40,8 @@ const EmailSection = () => {
 
     return (
         <section className='grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative'>
-            <div className='bg-gradient-to-r from-purple-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg top-3/4 absolute -left-4 transform -translate-x-1/2 -translate-1/2' />
-            <div className='bg-gradient-to-r from-pink-600 to-transparent rounded-full h-80 w-80 z-0 blur-lg top-1/4 absolute -right-4 transform -translate-x-1/2 -translate-1/2' />
+            <div className='bg-gradient-to-r from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg top-3/4 absolute -left-4 transform -translate-x-1/2 -translate-1/2' />
+            <div className='bg-gradient-to-r from-secondary-600 to-transparent rounded-full h-80 w-80 z-0 blur-lg top-1/4 absolute -right-4 transform -translate-x-1/2 -translate-1/2' />
             <div className='z-10'></div>
             <div>
                 <h5 className='text-xl font-bold text-white my-2'>
@@ -53,7 +53,7 @@ const EmailSection = () => {
                     try my best to get back to you!
                 </p>
                 <div className='socials flex flex-row gap-2'>
-                    <Link href="" className='rounded-full bg-gradient-to-t hover:from-purple-400 hover:bg-pink-600'><FaGithub className='text-5xl' /></Link>
+                    <Link href="" className='rounded-full bg-gradient-to-t hover:from-primary-400 hover:bg-secondary-600'><FaGithub className='text-5xl' /></Link>
                     <Link href="" className='hover:text-[#0a67c3]'><FaLinkedin className='text-5xl' /></Link>
 
                 </div>
@@ -107,7 +107,7 @@ const EmailSection = () => {
                     </div>
                     <button
                         type='submit'
-                        className='bg-gradient-to-r from-purple-400 to-pink-600 text-white font-medium rounded-lg py-2.5 mt-4 w-60'>
+                        className='bg-gradient-to-r from-primary-400 to-secondary-600 text-white font-medium rounded-lg py-2.5 mt-4 w-60'>
                         Send
                     </button>
                     {
